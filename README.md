@@ -1,9 +1,9 @@
-📘 Make It Asaan
+📘 MAKE IT ASAAN
 
 "Make It Asaan" is a Streamlit web application that uses AI to summarize research papers and extract key insights in a blog-style format. Simply upload a PDF paper, and the app will generate a clear, concise summary using cutting-edge LLMs and retrieval-based QA.
 
 
-🚀 Features
+🚀 FEATURES
 
 🔍 Upload any research paper in PDF format
 
@@ -11,13 +11,13 @@
 
 🧠 Automatically extracts:
 
-    Problem Statement
+Problem Statement
   
-    Methodology
+Methodology
   
-    Key Takeaways
+Key Takeaways
   
-    Conclusion
+Conclusion
   
 📎 Uses LangChain, HuggingFace Embeddings, and FAISS for document retrieval
 
@@ -25,7 +25,7 @@
 
 
 
-🛠️ Technologies Used
+🛠️ TECHNOLOGIES USED
 
 Python
 
@@ -41,7 +41,7 @@ ChatGroq (LLaMA 3) – For answer generation
 
 
 
-💡 Future Improvements
+💡 FUTURE IMPROVEMENTS
 
 Support for other file types (DOCX, TXT)
 
@@ -51,3 +51,33 @@ Multilingual summaries
 
 Caching & faster load times
 
+
+
+▶️ Getting Started
+1. Clone the Repository
+   
+        git clone https://github.com/yourusername/make-it-asaan.git
+        cd make-it-asaan
+
+2. Install Dependencies
+
+        pip install -r requirements.txt
+
+Or manually install the key packages:
+
+    pip install streamlit langchain faiss-cpu sentence-transformers langchain_groq
+
+
+3. Add Your Groq API Key
+Create a .streamlit/secrets.toml file:
+
+        GROQ_API_KEY = "your_groq_api_key_here"
+
+4. Run the App
+
+           streamlit run app.py
+
+
+🤝 Contributing
+
+Feel free to open issues, suggest improvements, or contribute!
