@@ -11,17 +11,18 @@
 
 🧠 Automatically extracts:
 
-  Problem Statement
+    Problem Statement
   
-  Methodology
+    Methodology
   
-  Key Takeaways
+    Key Takeaways
   
-  Conclusion
+    Conclusion
   
 📎 Uses LangChain, HuggingFace Embeddings, and FAISS for document retrieval
 
 🌐 Built with Streamlit for an intuitive web interface
+
 
 
 🛠️ Technologies Used
@@ -38,8 +39,15 @@ HuggingFace Transformers – Embedding model
 
 ChatGroq (LLaMA 3) – For answer generation
 
+
+
 💡 Future Improvements
+
 Support for other file types (DOCX, TXT)
+
 Custom question input by the user
+
 Multilingual summaries
+
 Caching & faster load times
+
