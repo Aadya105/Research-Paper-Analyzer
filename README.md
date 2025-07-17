@@ -2,14 +2,23 @@
 "Make It Asaan" is a Streamlit web application that uses AI to summarize research papers and extract key insights in a blog-style format. Simply upload a PDF paper, and the app will generate a clear, concise summary using cutting-edge LLMs and retrieval-based QA.
 
 🚀 Features
+
 🔍 Upload any research paper in PDF format
+
 🤖 Summarization powered by LLaMA 3 via Groq
+
 🧠 Automatically extracts:
+
   Problem Statement
+  
   Methodology
+  
   Key Takeaways
+  
   Conclusion
+  
 📎 Uses LangChain, HuggingFace Embeddings, and FAISS for document retrieval
+
 🌐 Built with Streamlit for an intuitive web interface
 
 🛠️ Technologies Used
